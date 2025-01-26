@@ -9,7 +9,7 @@ Setup Instructions
 Follow these steps to set up the project locally:
 
 Clone the Repository:
-git clone https://github.com/your-username/AssignmentCompHouse.git
+git clone https://github.com/Ameerparab/AssignmentCompHouse.git
 
 In this repository, there is a TestDocuments folder that contains the following documents:
 
