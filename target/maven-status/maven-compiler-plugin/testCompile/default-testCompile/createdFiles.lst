@@ -1,0 +1,8 @@
+com\companieshouseAssig\stepDefinitions\HomeStep.class
+com\companieshouseAssig\pageObject\HomePage.class
+com\companieshouseAssig\testRunner\testRunner.class
+com\companieshouseAssig\stepDefinitions\LoginSteps.class
+com\companieshouseAssig\pageObject\LoginPage.class
+com\companieshouseAssig\test\HomePageTest.class
+com\companieshouseAssig\base\BaseTest.class
+com\companieshouseAssig\factory\PlaywrightFactory.class

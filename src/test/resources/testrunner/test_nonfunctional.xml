@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Companies House Non Funtioal Test Suite" thread-count="1"
+	parallel="tests" verbose="4">
+
+	<listeners>
+		<listener
+			class-name="com.companieshouseAssig.utilities.ExtentReportListener" />
+	</listeners> 
+
+			<test name="Scalability Login test Test_chrome">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.companieshouseAssig.tests.NFTScalabilityLoginTest" />
+		</classes>
+	</test>
+
+			<test name="Concurrent User Load test Test_chrome">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.companieshouseAssig.tests.NFTConcurrentUserLoadTest" />
+		</classes>
+	</test>
+			<test name="Stress Home Page test Test_chrome">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.companieshouseAssig.tests.NFTHomePageStressTest" />
+		</classes>
+	</test>  
+	
+</suite>

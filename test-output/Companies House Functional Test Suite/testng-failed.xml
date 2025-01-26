@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [Companies House Functional Test Suite]" guice-stage="DEVELOPMENT" verbose="4">
+  <listeners>
+    <listener class-name="com.companieshouseAssig.utilities.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="1" parallel="tests" name="Book Room Test_chrome(failed)" verbose="4">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.companieshouseAssig.tests.BookRoomTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="sendbookDetails"/>
+        </methods>
+      </class> <!-- com.companieshouseAssig.tests.BookRoomTest -->
+    </classes>
+  </test> <!-- Book Room Test_chrome(failed) -->
+  <test thread-count="1" parallel="tests" name="Checking links Pages Test_chrome(failed)" verbose="4">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.companieshouseAssig.tests.CheckingLinksTest">
+        <methods>
+          <include name="gitHubFeatureLink"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.companieshouseAssig.tests.CheckingLinksTest -->
+    </classes>
+  </test> <!-- Checking links Pages Test_chrome(failed) -->
+  <test thread-count="1" parallel="tests" name="Login test Data Driven Approach Test_chrome(failed)" verbose="4">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.companieshouseAssig.tests.LoginTestDataDriven">
+        <methods>
+          <include name="setup"/>
+          <include name="verifyAppLoginFunctionality" invocation-numbers="1"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.companieshouseAssig.tests.LoginTestDataDriven -->
+    </classes>
+  </test> <!-- Login test Data Driven Approach Test_chrome(failed) -->
+</suite> <!-- Failed suite [Companies House Functional Test Suite] -->

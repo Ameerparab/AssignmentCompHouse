@@ -1,0 +1,8 @@
+C:\Learning\Playwright\CompaniesHouseAssig\src\test\java\com\companieshouseAssig\base\BaseTest.java
+C:\Learning\Playwright\CompaniesHouseAssig\src\test\java\com\companieshouseAssig\factory\PlaywrightFactory.java
+C:\Learning\Playwright\CompaniesHouseAssig\src\test\java\com\companieshouseAssig\pageObject\HomePage.java
+C:\Learning\Playwright\CompaniesHouseAssig\src\test\java\com\companieshouseAssig\pageObject\LoginPage.java
+C:\Learning\Playwright\CompaniesHouseAssig\src\test\java\com\companieshouseAssig\stepDefinitions\HomeStep.java
+C:\Learning\Playwright\CompaniesHouseAssig\src\test\java\com\companieshouseAssig\stepDefinitions\LoginSteps.java
+C:\Learning\Playwright\CompaniesHouseAssig\src\test\java\com\companieshouseAssig\test\HomePageTest.java
+C:\Learning\Playwright\CompaniesHouseAssig\src\test\java\com\companieshouseAssig\testRunner\testRunner.java

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Companies House Functional Test Suite" thread-count="1"
+	parallel="tests" verbose="4">
+
+	<listeners>
+		<listener
+			class-name="com.companieshouseAssig.utilities.ExtentReportListener" />
+	</listeners> 
+
+	<test name="Home Page Test_chrome">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.companieshouseAssig.tests.HomePageTest" />
+		</classes>
+	</test>
+
+	<test name="Login Test_chrome">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.companieshouseAssig.tests.LoginTest" />
+		</classes>
+	</test>
+
+	<test name="Book Room Test_chrome">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.companieshouseAssig.tests.BookRoomTest" />
+		</classes>
+	</test>
+
+	<test name="Conact Details Send Test_chrome">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.companieshouseAssig.tests.ConactDetailsSendTest" />
+		</classes>
+	</test>
+	
+		<test name="Checking links Pages Test_chrome">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.companieshouseAssig.tests.CheckingLinksTest" />
+		</classes>
+	</test>
+
+	<test name="Accepting Cooking Let me Hack Test_chrome">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.companieshouseAssig.tests.AcceptingCookiesTest" />
+		</classes>
+	</test>
+	
+	<test name="Creating a Room Test_chrome">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.companieshouseAssig.tests.CreateRoomTest" />
+		</classes>
+	</test>
+	
+	<test name="Check Contact Retrive Database Test_chrome">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.companieshouseAssig.tests.ConactDetailsRetriveDBTest" />
+		</classes>
+	</test>
+	
+		<test name="Booking through Admin Credentails Test_chrome">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.companieshouseAssig.tests.BookRoomAdminTest" />
+		</classes>
+	</test>
+	
+		<test name="Login test Data Driven Approach Test_chrome">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.companieshouseAssig.tests.LoginTestDataDriven" />
+		</classes>
+	</test>	
+	
+	
+	<!-- Simple Performance Time measurement of Page load using Playwright -->
+
+	<test name="Performance Home Page Load time Test_chrome">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.companieshouseAssig.tests.NFTPerformanceHomePageTest" />
+		</classes>
+	</test>
+	
+		<test name="Performance Login time Test_chrome">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.companieshouseAssig.tests.NFTPerformanceLoginTest" />
+		</classes>
+	</test>
+
+	<test name="Responsivness Login test Test_chrome">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.companieshouseAssig.tests.NFTResponsivenessLoginTest" />
+		</classes>
+	</test>
+	
+
+
+</suite>
