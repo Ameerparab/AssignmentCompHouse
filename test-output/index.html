@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">27 methods, 3 failed,   24 passed</span>
+                    <span class="method-stats">27 methods, 2 failed,   25 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -105,11 +105,6 @@
                       <span>
                         <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-Companies_House_Functional_Test_Suite" title="com.companieshouseAssig.tests.CheckingLinksTest" class="method navigator-link" hash-for-method="gitHubFeatureLink">gitHubFeatureLink</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Companies_House_Functional_Test_Suite" title="com.companieshouseAssig.tests.BookRoomAdminTest" class="method navigator-link" hash-for-method="sendbookDetails">sendbookDetails</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -228,6 +223,11 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Companies_House_Functional_Test_Suite" title="com.companieshouseAssig.tests.BookRoomAdminTest" class="method navigator-link" hash-for-method="sendbookDetails">sendbookDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Companies_House_Functional_Test_Suite" title="com.companieshouseAssig.tests.ConactDetailsRetriveDBTest" class="method navigator-link" hash-for-method="verfiyDataEntry">verfiyDataEntry</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -261,88 +261,6 @@
           <div class="suite-Companies_House_Functional_Test_Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">com.companieshouseAssig.tests.BookRoomAdminTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="sendbookDetails">
-                  </a> <!-- sendbookDetails -->
-                  <span class="method-name">sendbookDetails</span>
-                  <div class="stack-trace">com.microsoft.playwright.TimeoutError: Error {
-  message=&apos;Timeout 30000ms exceeded.
-  name=&apos;TimeoutError
-  stack=&apos;TimeoutError: Timeout 30000ms exceeded.
-    at ProgressController.run (C:\Users\aamir\AppData\Local\Temp\playwright-java-538505439556120954\package\lib\server\progress.js:75:26)
-    at Frame.fill (C:\Users\aamir\AppData\Local\Temp\playwright-java-538505439556120954\package\lib\server\frames.js:1072:23)
-    at FrameDispatcher.fill (C:\Users\aamir\AppData\Local\Temp\playwright-java-538505439556120954\package\lib\server\dispatchers\frameDispatcher.js:170:30)
-    at FrameDispatcher._handleCommand (C:\Users\aamir\AppData\Local\Temp\playwright-java-538505439556120954\package\lib\server\dispatchers\dispatcher.js:94:40)
-    at DispatcherConnection.dispatch (C:\Users\aamir\AppData\Local\Temp\playwright-java-538505439556120954\package\lib\server\dispatchers\dispatcher.js:361:39)
-}
-Call log:
--   - waiting for locator(&quot;//input[@placeholder=&apos;Firstname&apos;]&quot;)
-
-	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)
-	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:132)
-	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
-	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:118)
-	at com.microsoft.playwright.impl.FrameImpl.fillImpl(FrameImpl.java:335)
-	at com.microsoft.playwright.impl.PageImpl.lambda$fill$28(PageImpl.java:767)
-	at com.microsoft.playwright.impl.LoggingSupport.lambda$withLogging$0(LoggingSupport.java:36)
-	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
-	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:97)
-	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:35)
-	at com.microsoft.playwright.impl.PageImpl.fill(PageImpl.java:766)
-	at com.microsoft.playwright.Page.fill(Page.java:4715)
-	at com.companieshouseAssig.pageObject.AdminPage.reportMangt(AdminPage.java:100)
-	at com.companieshouseAssig.tests.BookRoomAdminTest.sendbookDetails(BookRoomAdminTest.java:18)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1570)
-Caused by: com.microsoft.playwright.TimeoutError: Error {
-  message=&apos;Timeout 30000ms exceeded.
-  name=&apos;TimeoutError
-  stack=&apos;TimeoutError: Timeout 30000ms exceeded.
-    at ProgressController.run (C:\Users\aamir\AppData\Local\Temp\playwright-java-538505439556120954\package\lib\server\progress.js:75:26)
-    at Frame.fill (C:\Users\aamir\AppData\Local\Temp\playwright-java-538505439556120954\package\lib\server\frames.js:1072:23)
-    at FrameDispatcher.fill (C:\Users\aamir\AppData\Local\Temp\playwright-java-538505439556120954\package\lib\server\dispatchers\frameDispatcher.js:170:30)
-    at FrameDispatcher._handleCommand (C:\Users\aamir\AppData\Local\Temp\playwright-java-538505439556120954\package\lib\server\dispatchers\dispatcher.js:94:40)
-    at DispatcherConnection.dispatch (C:\Users\aamir\AppData\Local\Temp\playwright-java-538505439556120954\package\lib\server\dispatchers\dispatcher.js:361:39)
-}
-Call log:
--   - waiting for locator(&quot;//input[@placeholder=&apos;Firstname&apos;]&quot;)
-
-	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:254)
-	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
-	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:130)
-	... 33 more
-
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Companies_House_Functional_Test_Suite-class-failed -->
-          <div class="suite-Companies_House_Functional_Test_Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
               <span class="class-name">com.companieshouseAssig.tests.LoginTestDataDriven</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -356,12 +274,12 @@ Call log:
   message=&apos;Timeout 30000ms exceeded.
   name=&apos;TimeoutError
   stack=&apos;TimeoutError: Timeout 30000ms exceeded.
-    at ProgressController.run (C:\Users\aamir\AppData\Local\Temp\playwright-java-538505439556120954\package\lib\server\progress.js:75:26)
-    at Frame._callOnElementOnceMatches (C:\Users\aamir\AppData\Local\Temp\playwright-java-538505439556120954\package\lib\server\frames.js:1479:23)
-    at Frame.textContent (C:\Users\aamir\AppData\Local\Temp\playwright-java-538505439556120954\package\lib\server\frames.js:1089:17)
-    at FrameDispatcher.textContent (C:\Users\aamir\AppData\Local\Temp\playwright-java-538505439556120954\package\lib\server\dispatchers\frameDispatcher.js:179:37)
-    at FrameDispatcher._handleCommand (C:\Users\aamir\AppData\Local\Temp\playwright-java-538505439556120954\package\lib\server\dispatchers\dispatcher.js:94:40)
-    at DispatcherConnection.dispatch (C:\Users\aamir\AppData\Local\Temp\playwright-java-538505439556120954\package\lib\server\dispatchers\dispatcher.js:361:39)
+    at ProgressController.run (C:\Users\aamir\AppData\Local\Temp\playwright-java-12905125744924113499\package\lib\server\progress.js:75:26)
+    at Frame._callOnElementOnceMatches (C:\Users\aamir\AppData\Local\Temp\playwright-java-12905125744924113499\package\lib\server\frames.js:1479:23)
+    at Frame.textContent (C:\Users\aamir\AppData\Local\Temp\playwright-java-12905125744924113499\package\lib\server\frames.js:1089:17)
+    at FrameDispatcher.textContent (C:\Users\aamir\AppData\Local\Temp\playwright-java-12905125744924113499\package\lib\server\dispatchers\frameDispatcher.js:179:37)
+    at FrameDispatcher._handleCommand (C:\Users\aamir\AppData\Local\Temp\playwright-java-12905125744924113499\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\aamir\AppData\Local\Temp\playwright-java-12905125744924113499\package\lib\server\dispatchers\dispatcher.js:361:39)
 }
 Call log:
 -   - waiting for locator(&quot;errorMessage&quot;)
@@ -404,12 +322,12 @@ Caused by: com.microsoft.playwright.TimeoutError: Error {
   message=&apos;Timeout 30000ms exceeded.
   name=&apos;TimeoutError
   stack=&apos;TimeoutError: Timeout 30000ms exceeded.
-    at ProgressController.run (C:\Users\aamir\AppData\Local\Temp\playwright-java-538505439556120954\package\lib\server\progress.js:75:26)
-    at Frame._callOnElementOnceMatches (C:\Users\aamir\AppData\Local\Temp\playwright-java-538505439556120954\package\lib\server\frames.js:1479:23)
-    at Frame.textContent (C:\Users\aamir\AppData\Local\Temp\playwright-java-538505439556120954\package\lib\server\frames.js:1089:17)
-    at FrameDispatcher.textContent (C:\Users\aamir\AppData\Local\Temp\playwright-java-538505439556120954\package\lib\server\dispatchers\frameDispatcher.js:179:37)
-    at FrameDispatcher._handleCommand (C:\Users\aamir\AppData\Local\Temp\playwright-java-538505439556120954\package\lib\server\dispatchers\dispatcher.js:94:40)
-    at DispatcherConnection.dispatch (C:\Users\aamir\AppData\Local\Temp\playwright-java-538505439556120954\package\lib\server\dispatchers\dispatcher.js:361:39)
+    at ProgressController.run (C:\Users\aamir\AppData\Local\Temp\playwright-java-12905125744924113499\package\lib\server\progress.js:75:26)
+    at Frame._callOnElementOnceMatches (C:\Users\aamir\AppData\Local\Temp\playwright-java-12905125744924113499\package\lib\server\frames.js:1479:23)
+    at Frame.textContent (C:\Users\aamir\AppData\Local\Temp\playwright-java-12905125744924113499\package\lib\server\frames.js:1089:17)
+    at FrameDispatcher.textContent (C:\Users\aamir\AppData\Local\Temp\playwright-java-12905125744924113499\package\lib\server\dispatchers\frameDispatcher.js:179:37)
+    at FrameDispatcher._handleCommand (C:\Users\aamir\AppData\Local\Temp\playwright-java-12905125744924113499\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\aamir\AppData\Local\Temp\playwright-java-12905125744924113499\package\lib\server\dispatchers\dispatcher.js:361:39)
 }
 Call log:
 -   - waiting for locator(&quot;errorMessage&quot;)
@@ -488,57 +406,6 @@ Call log:
                   <a name="sendbookDetails">
                   </a> <!-- sendbookDetails -->
                   <span class="method-name">sendbookDetails</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Companies_House_Functional_Test_Suite-class-passed -->
-          <div class="suite-Companies_House_Functional_Test_Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.companieshouseAssig.tests.AcceptingCookiesTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="homePageTitleTest">
-                  </a> <!-- homePageTitleTest -->
-                  <span class="method-name">homePageTitleTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Companies_House_Functional_Test_Suite-class-passed -->
-          <div class="suite-Companies_House_Functional_Test_Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.companieshouseAssig.tests.ConactDetailsRetriveDBTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="loginadmin">
-                  </a> <!-- loginadmin -->
-                  <span class="method-name">loginadmin</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="sendContactDetails">
-                  </a> <!-- sendContactDetails -->
-                  <span class="method-name">sendContactDetails</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verfiyDataEntry">
-                  </a> <!-- verfiyDataEntry -->
-                  <span class="method-name">verfiyDataEntry</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verfiySubmitedMessage">
-                  </a> <!-- verfiySubmitedMessage -->
-                  <span class="method-name">verfiySubmitedMessage</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -689,28 +556,6 @@ Call log:
           <div class="suite-Companies_House_Functional_Test_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.companieshouseAssig.tests.ConactDetailsSendTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="sendContactDetails">
-                  </a> <!-- sendContactDetails -->
-                  <span class="method-name">sendContactDetails</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verfiySubmitedMessage">
-                  </a> <!-- verfiySubmitedMessage -->
-                  <span class="method-name">verfiySubmitedMessage</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Companies_House_Functional_Test_Suite-class-passed -->
-          <div class="suite-Companies_House_Functional_Test_Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
               <span class="class-name">com.companieshouseAssig.tests.LoginTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -733,6 +578,94 @@ Call log:
                   <a name="appLoginTest">
                   </a> <!-- appLoginTest -->
                   <span class="method-name">appLoginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Companies_House_Functional_Test_Suite-class-passed -->
+          <div class="suite-Companies_House_Functional_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.companieshouseAssig.tests.AcceptingCookiesTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="homePageTitleTest">
+                  </a> <!-- homePageTitleTest -->
+                  <span class="method-name">homePageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Companies_House_Functional_Test_Suite-class-passed -->
+          <div class="suite-Companies_House_Functional_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.companieshouseAssig.tests.ConactDetailsRetriveDBTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginadmin">
+                  </a> <!-- loginadmin -->
+                  <span class="method-name">loginadmin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sendContactDetails">
+                  </a> <!-- sendContactDetails -->
+                  <span class="method-name">sendContactDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verfiyDataEntry">
+                  </a> <!-- verfiyDataEntry -->
+                  <span class="method-name">verfiyDataEntry</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verfiySubmitedMessage">
+                  </a> <!-- verfiySubmitedMessage -->
+                  <span class="method-name">verfiySubmitedMessage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Companies_House_Functional_Test_Suite-class-passed -->
+          <div class="suite-Companies_House_Functional_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.companieshouseAssig.tests.BookRoomAdminTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="sendbookDetails">
+                  </a> <!-- sendbookDetails -->
+                  <span class="method-name">sendbookDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Companies_House_Functional_Test_Suite-class-passed -->
+          <div class="suite-Companies_House_Functional_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.companieshouseAssig.tests.ConactDetailsSendTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="sendContactDetails">
+                  </a> <!-- sendContactDetails -->
+                  <span class="method-name">sendContactDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verfiySubmitedMessage">
+                  </a> <!-- verfiySubmitedMessage -->
+                  <span class="method-name">verfiySubmitedMessage</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -903,118 +836,118 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(27);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'sendbookDetails')
-data.setCell(0, 2, 'com.companieshouseAssig.tests.BookRoomAdminTest')
-data.setCell(0, 3, 35574);
+data.setCell(0, 1, 'verifyAppLoginFunctionality')
+data.setCell(0, 2, 'com.companieshouseAssig.tests.LoginTestDataDriven')
+data.setCell(0, 3, 30220);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'verifyAppLoginFunctionality')
-data.setCell(1, 2, 'com.companieshouseAssig.tests.LoginTestDataDriven')
-data.setCell(1, 3, 30226);
+data.setCell(1, 1, 'pipelineLink')
+data.setCell(1, 2, 'com.companieshouseAssig.tests.CheckingLinksTest')
+data.setCell(1, 3, 13034);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'pipelineLink')
-data.setCell(2, 2, 'com.companieshouseAssig.tests.CheckingLinksTest')
-data.setCell(2, 3, 13028);
+data.setCell(2, 1, 'sendbookDetails')
+data.setCell(2, 2, 'com.companieshouseAssig.tests.BookRoomAdminTest')
+data.setCell(2, 3, 9543);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'sendbookDetails')
 data.setCell(3, 2, 'com.companieshouseAssig.tests.BookRoomTest')
-data.setCell(3, 3, 8850);
+data.setCell(3, 3, 8234);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'loginadmin')
-data.setCell(4, 2, 'com.companieshouseAssig.tests.ConactDetailsRetriveDBTest')
-data.setCell(4, 3, 5616);
+data.setCell(4, 1, 'gitHubFeatureLink')
+data.setCell(4, 2, 'com.companieshouseAssig.tests.CheckingLinksTest')
+data.setCell(4, 3, 3069);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'gitHubFeatureLink')
-data.setCell(5, 2, 'com.companieshouseAssig.tests.CheckingLinksTest')
-data.setCell(5, 3, 3035);
+data.setCell(5, 1, 'login')
+data.setCell(5, 2, 'com.companieshouseAssig.tests.CreateRoomTest')
+data.setCell(5, 3, 2536);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'login')
-data.setCell(6, 2, 'com.companieshouseAssig.tests.CreateRoomTest')
-data.setCell(6, 3, 2548);
+data.setCell(6, 1, 'loginadmin')
+data.setCell(6, 2, 'com.companieshouseAssig.tests.ConactDetailsRetriveDBTest')
+data.setCell(6, 3, 2364);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'verfiyDataEntry')
-data.setCell(7, 2, 'com.companieshouseAssig.tests.ConactDetailsRetriveDBTest')
-data.setCell(7, 3, 2353);
+data.setCell(7, 1, 'HomePagePerformanceLoadTime')
+data.setCell(7, 2, 'com.companieshouseAssig.tests.NFTPerformanceHomePageTest')
+data.setCell(7, 3, 1765);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'gitHubRestLink')
 data.setCell(8, 2, 'com.companieshouseAssig.tests.CheckingLinksTest')
-data.setCell(8, 3, 1875);
+data.setCell(8, 3, 1677);
 data.setCell(9, 0, 9)
 data.setCell(9, 1, 'LoginperformaneLoadTime')
 data.setCell(9, 2, 'com.companieshouseAssig.tests.NFTPerformanceLoginTest')
-data.setCell(9, 3, 1839);
+data.setCell(9, 3, 1088);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'HomePagePerformanceLoadTime')
-data.setCell(10, 2, 'com.companieshouseAssig.tests.NFTPerformanceHomePageTest')
-data.setCell(10, 3, 1614);
+data.setCell(10, 1, 'appLoginTest')
+data.setCell(10, 2, 'com.companieshouseAssig.tests.LoginTest')
+data.setCell(10, 3, 958);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'appLoginTest')
-data.setCell(11, 2, 'com.companieshouseAssig.tests.LoginTest')
-data.setCell(11, 3, 1005);
+data.setCell(11, 1, 'verfiySubmitedMessage')
+data.setCell(11, 2, 'com.companieshouseAssig.tests.ConactDetailsSendTest')
+data.setCell(11, 3, 845);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'adminClick')
-data.setCell(12, 2, 'com.companieshouseAssig.tests.NFTResponsivenessLoginTest')
-data.setCell(12, 3, 952);
+data.setCell(12, 1, 'verfiySubmitedMessage')
+data.setCell(12, 2, 'com.companieshouseAssig.tests.ConactDetailsRetriveDBTest')
+data.setCell(12, 3, 842);
 data.setCell(13, 0, 13)
 data.setCell(13, 1, 'sendbookDetails')
 data.setCell(13, 2, 'com.companieshouseAssig.tests.CreateRoomTest')
-data.setCell(13, 3, 847);
+data.setCell(13, 3, 691);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'verfiySubmitedMessage')
-data.setCell(14, 2, 'com.companieshouseAssig.tests.ConactDetailsSendTest')
-data.setCell(14, 3, 837);
+data.setCell(14, 1, 'verifyAppLoginFunctionality')
+data.setCell(14, 2, 'com.companieshouseAssig.tests.LoginTestDataDriven')
+data.setCell(14, 3, 546);
 data.setCell(15, 0, 15)
 data.setCell(15, 1, 'sendContactDetails')
-data.setCell(15, 2, 'com.companieshouseAssig.tests.ConactDetailsRetriveDBTest')
-data.setCell(15, 3, 720);
+data.setCell(15, 2, 'com.companieshouseAssig.tests.ConactDetailsSendTest')
+data.setCell(15, 3, 544);
 data.setCell(16, 0, 16)
 data.setCell(16, 1, 'sendContactDetails')
-data.setCell(16, 2, 'com.companieshouseAssig.tests.ConactDetailsSendTest')
-data.setCell(16, 3, 617);
+data.setCell(16, 2, 'com.companieshouseAssig.tests.ConactDetailsRetriveDBTest')
+data.setCell(16, 3, 536);
 data.setCell(17, 0, 17)
-data.setCell(17, 1, 'verifyAppLoginFunctionality')
-data.setCell(17, 2, 'com.companieshouseAssig.tests.LoginTestDataDriven')
-data.setCell(17, 3, 617);
+data.setCell(17, 1, 'appLoginTest')
+data.setCell(17, 2, 'com.companieshouseAssig.tests.NFTResponsivenessLoginTest')
+data.setCell(17, 3, 349);
 data.setCell(18, 0, 18)
-data.setCell(18, 1, 'homePageTitleTest')
-data.setCell(18, 2, 'com.companieshouseAssig.tests.AcceptingCookiesTest')
-data.setCell(18, 3, 317);
+data.setCell(18, 1, 'adminClick')
+data.setCell(18, 2, 'com.companieshouseAssig.tests.LoginTest')
+data.setCell(18, 3, 318);
 data.setCell(19, 0, 19)
-data.setCell(19, 1, 'appLoginTest')
-data.setCell(19, 2, 'com.companieshouseAssig.tests.NFTResponsivenessLoginTest')
-data.setCell(19, 3, 275);
+data.setCell(19, 1, 'verfiyDataEntry')
+data.setCell(19, 2, 'com.companieshouseAssig.tests.ConactDetailsRetriveDBTest')
+data.setCell(19, 3, 266);
 data.setCell(20, 0, 20)
-data.setCell(20, 1, 'verfiySubmitedMessage')
-data.setCell(20, 2, 'com.companieshouseAssig.tests.ConactDetailsRetriveDBTest')
-data.setCell(20, 3, 223);
+data.setCell(20, 1, 'adminClick')
+data.setCell(20, 2, 'com.companieshouseAssig.tests.NFTResponsivenessLoginTest')
+data.setCell(20, 3, 265);
 data.setCell(21, 0, 21)
-data.setCell(21, 1, 'adminClick')
-data.setCell(21, 2, 'com.companieshouseAssig.tests.LoginTest')
-data.setCell(21, 3, 212);
+data.setCell(21, 1, 'homePageTitleTest')
+data.setCell(21, 2, 'com.companieshouseAssig.tests.AcceptingCookiesTest')
+data.setCell(21, 3, 238);
 data.setCell(22, 0, 22)
 data.setCell(22, 1, 'homePageTitleTest')
 data.setCell(22, 2, 'com.companieshouseAssig.tests.HomePageTest')
-data.setCell(22, 3, 54);
+data.setCell(22, 3, 83);
 data.setCell(23, 0, 23)
 data.setCell(23, 1, 'homePageURLTest')
 data.setCell(23, 2, 'com.companieshouseAssig.tests.HomePageTest')
-data.setCell(23, 3, 6);
+data.setCell(23, 3, 10);
 data.setCell(24, 0, 24)
-data.setCell(24, 1, 'closeBookingMessage')
-data.setCell(24, 2, 'com.companieshouseAssig.tests.BookRoomTest')
-data.setCell(24, 3, 4);
+data.setCell(24, 1, 'adminLogin')
+data.setCell(24, 2, 'com.companieshouseAssig.tests.NFTResponsivenessLoginTest')
+data.setCell(24, 3, 9);
 data.setCell(25, 0, 25)
 data.setCell(25, 1, 'adminLogin')
 data.setCell(25, 2, 'com.companieshouseAssig.tests.LoginTest')
-data.setCell(25, 3, 3);
+data.setCell(25, 3, 4);
 data.setCell(26, 0, 26)
-data.setCell(26, 1, 'adminLogin')
-data.setCell(26, 2, 'com.companieshouseAssig.tests.NFTResponsivenessLoginTest')
-data.setCell(26, 3, 3);
+data.setCell(26, 1, 'closeBookingMessage')
+data.setCell(26, 2, 'com.companieshouseAssig.tests.BookRoomTest')
+data.setCell(26, 3, 0);
 window.suiteTableData['Companies_House_Functional_Test_Suite']= { tableData: data, tableDiv: 'times-div-Companies_House_Functional_Test_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 41 seconds</span>
+              <span class="suite-total-time">Total running time: 38 seconds</span>
               <div id="times-div-Companies_House_Functional_Test_Suite">
               </div> <!-- times-div-Companies_House_Functional_Test_Suite -->
             </div> <!-- times-div -->
@@ -1047,253 +980,251 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">homePageTitleTest</span>
-                <span class="method-start">16181 ms</span>
+                <span class="method-start">15909 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">homePageURLTest</span>
-                <span class="method-start">16267 ms</span>
+                <span class="method-start">16021 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">16279 ms</span>
+                <span class="method-start">16036 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.companieshouseAssig.tests.LoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup</span>
-                <span class="method-start">17434 ms</span>
+                <span class="method-start">17787 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">adminClick</span>
-                <span class="method-start">21510 ms</span>
+                <span class="method-start">21392 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">adminLogin</span>
-                <span class="method-start">21726 ms</span>
+                <span class="method-start">21715 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">appLoginTest</span>
-                <span class="method-start">21734 ms</span>
+                <span class="method-start">21723 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">22741 ms</span>
+                <span class="method-start">22681 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.companieshouseAssig.tests.BookRoomTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup</span>
-                <span class="method-start">23335 ms</span>
+                <span class="method-start">23235 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">sendbookDetails</span>
-                <span class="method-start">26896 ms</span>
+                <span class="method-start">26561 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">closeBookingMessage</span>
-                <span class="method-start">35749 ms</span>
+                <span class="method-start">34795 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">35757 ms</span>
+                <span class="method-start">34811 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.companieshouseAssig.tests.ConactDetailsSendTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup</span>
-                <span class="method-start">36431 ms</span>
+                <span class="method-start">35430 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">sendContactDetails</span>
-                <span class="method-start">39906 ms</span>
+                <span class="method-start">38639 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verfiySubmitedMessage</span>
-                <span class="method-start">40529 ms</span>
+                <span class="method-start">39191 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">41368 ms</span>
+                <span class="method-start">40036 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.companieshouseAssig.tests.CheckingLinksTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup</span>
-                <span class="method-start">42022 ms</span>
+                <span class="method-start">40911 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">gitHubRestLink</span>
-                <span class="method-start">45236 ms</span>
+                <span class="method-start">44089 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">pipelineLink</span>
-                <span class="method-start">47115 ms</span>
+                <span class="method-start">45771 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">gitHubFeatureLink</span>
-                <span class="method-start">60146 ms</span>
+                <span class="method-start">58805 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">64050 ms</span>
+                <span class="method-start">62777 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.companieshouseAssig.tests.AcceptingCookiesTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup</span>
-                <span class="method-start">64951 ms</span>
+                <span class="method-start">63795 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">homePageTitleTest</span>
-                <span class="method-start">68970 ms</span>
+                <span class="method-start">66885 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">69288 ms</span>
+                <span class="method-start">67128 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.companieshouseAssig.tests.CreateRoomTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup</span>
-                <span class="method-start">69996 ms</span>
+                <span class="method-start">68186 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">login</span>
-                <span class="method-start">73690 ms</span>
+                <span class="method-start">71450 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">sendbookDetails</span>
-                <span class="method-start">76240 ms</span>
+                <span class="method-start">73986 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">77089 ms</span>
+                <span class="method-start">74681 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.companieshouseAssig.tests.ConactDetailsRetriveDBTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup</span>
-                <span class="method-start">77598 ms</span>
+                <span class="method-start">75972 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">sendContactDetails</span>
-                <span class="method-start">81327 ms</span>
+                <span class="method-start">79216 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verfiySubmitedMessage</span>
-                <span class="method-start">82050 ms</span>
+                <span class="method-start">79758 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">loginadmin</span>
-                <span class="method-start">82280 ms</span>
+                <span class="method-start">80610 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verfiyDataEntry</span>
-                <span class="method-start">87898 ms</span>
+                <span class="method-start">82974 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">90253 ms</span>
+                <span class="method-start">83240 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.companieshouseAssig.tests.BookRoomAdminTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup</span>
-                <span class="method-start">91322 ms</span>
+                <span class="method-start">84144 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">sendbookDetails</span>
-                <span class="method-start">95742 ms</span>
+                <span class="method-start">87401 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">131687 ms</span>
+                <span class="method-start">96944 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.companieshouseAssig.tests.LoginTestDataDriven</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup</span>
-                <span class="method-start">132467 ms</span>
+                <span class="method-start">97946 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">verifyAppLoginFunctionality(admin, password, Success)</span>
-                <span class="method-start">139209 ms</span>
+                <span class="method-start">103783 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">verifyAppLoginFunctionality(2323.0, Password, Failure)</span>
-                <span class="method-start">139828 ms</span>
+                <span class="method-start">104341 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">170359 ms</span>
+                <span class="method-start">135073 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.companieshouseAssig.tests.NFTPerformanceHomePageTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup</span>
-                <span class="method-start">170996 ms</span>
+                <span class="method-start">136783 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">HomePagePerformanceLoadTime</span>
-                <span class="method-start">174259 ms</span>
+                <span class="method-start">140430 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">175875 ms</span>
+                <span class="method-start">142195 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.companieshouseAssig.tests.NFTPerformanceLoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup</span>
-                <span class="method-start">177174 ms</span>
+                <span class="method-start">142926 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">LoginperformaneLoadTime</span>
-                <span class="method-start">180918 ms</span>
+                <span class="method-start">147777 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">182758 ms</span>
+                <span class="method-start">148871 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.companieshouseAssig.tests.NFTResponsivenessLoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup</span>
-                <span class="method-start">183255 ms</span>
+                <span class="method-start">149806 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">adminClick</span>
-                <span class="method-start">186824 ms</span>
+                <span class="method-start">152993 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">adminLogin</span>
-                <span class="method-start">187778 ms</span>
+                <span class="method-start">153267 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">appLoginTest</span>
-                <span class="method-start">187784 ms</span>
+                <span class="method-start">153281 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">188061 ms</span>
+                <span class="method-start">153632 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

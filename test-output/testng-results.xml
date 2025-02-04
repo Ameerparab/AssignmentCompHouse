@@ -1,109 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="27" passed="24" failed="3" skipped="0">
+<testng-results ignored="0" total="27" passed="25" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-04T17:31:46 GMT" name="Companies House Functional Test Suite" finished-at="2025-02-04T17:34:55 GMT" duration-ms="188708">
+  <suite started-at="2025-02-04T17:44:15 GMT" name="Companies House Functional Test Suite" finished-at="2025-02-04T17:46:49 GMT" duration-ms="154279">
     <groups>
     </groups>
-    <test started-at="2025-02-04T17:31:46 GMT" name="Home Page Test_chrome" finished-at="2025-02-04T17:32:03 GMT" duration-ms="16831">
+    <test started-at="2025-02-04T17:44:15 GMT" name="Home Page Test_chrome" finished-at="2025-02-04T17:44:32 GMT" duration-ms="17003">
       <class name="com.companieshouseAssig.tests.HomePageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.companieshouseAssig.tests.HomePageTest@5276d6ee]" started-at="2025-02-04T17:31:46 GMT" name="setup" finished-at="2025-02-04T17:32:02 GMT" duration-ms="16154" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.companieshouseAssig.tests.HomePageTest@5276d6ee]" started-at="2025-02-04T17:44:15 GMT" name="setup" finished-at="2025-02-04T17:44:31 GMT" duration-ms="15861" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="homePageTitleTest()[pri:1, instance:com.companieshouseAssig.tests.HomePageTest@5276d6ee]" started-at="2025-02-04T17:32:02 GMT" name="homePageTitleTest" finished-at="2025-02-04T17:32:02 GMT" duration-ms="54" status="PASS">
+        <test-method signature="homePageTitleTest()[pri:1, instance:com.companieshouseAssig.tests.HomePageTest@5276d6ee]" started-at="2025-02-04T17:44:31 GMT" name="homePageTitleTest" finished-at="2025-02-04T17:44:31 GMT" duration-ms="83" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePageTitleTest -->
-        <test-method signature="homePageURLTest()[pri:2, instance:com.companieshouseAssig.tests.HomePageTest@5276d6ee]" started-at="2025-02-04T17:32:03 GMT" name="homePageURLTest" finished-at="2025-02-04T17:32:03 GMT" duration-ms="6" status="PASS">
+        <test-method signature="homePageURLTest()[pri:2, instance:com.companieshouseAssig.tests.HomePageTest@5276d6ee]" started-at="2025-02-04T17:44:31 GMT" name="homePageURLTest" finished-at="2025-02-04T17:44:31 GMT" duration-ms="10" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePageURLTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.companieshouseAssig.tests.HomePageTest@5276d6ee]" started-at="2025-02-04T17:32:03 GMT" name="tearDown" finished-at="2025-02-04T17:32:03 GMT" duration-ms="525" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.companieshouseAssig.tests.HomePageTest@5276d6ee]" started-at="2025-02-04T17:44:31 GMT" name="tearDown" finished-at="2025-02-04T17:44:32 GMT" duration-ms="938" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.companieshouseAssig.tests.HomePageTest -->
     </test> <!-- Home Page Test_chrome -->
-    <test started-at="2025-02-04T17:32:04 GMT" name="Login Test_chrome" finished-at="2025-02-04T17:32:10 GMT" duration-ms="5828">
+    <test started-at="2025-02-04T17:44:32 GMT" name="Login Test_chrome" finished-at="2025-02-04T17:44:38 GMT" duration-ms="5312">
       <class name="com.companieshouseAssig.tests.LoginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.companieshouseAssig.tests.LoginTest@311bf055]" started-at="2025-02-04T17:32:04 GMT" name="setup" finished-at="2025-02-04T17:32:08 GMT" duration-ms="4075" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.companieshouseAssig.tests.LoginTest@311bf055]" started-at="2025-02-04T17:44:32 GMT" name="setup" finished-at="2025-02-04T17:44:36 GMT" duration-ms="3604" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="adminClick()[pri:1, instance:com.companieshouseAssig.tests.LoginTest@311bf055]" started-at="2025-02-04T17:32:08 GMT" name="adminClick" finished-at="2025-02-04T17:32:08 GMT" duration-ms="212" status="PASS">
+        <test-method signature="adminClick()[pri:1, instance:com.companieshouseAssig.tests.LoginTest@311bf055]" started-at="2025-02-04T17:44:36 GMT" name="adminClick" finished-at="2025-02-04T17:44:36 GMT" duration-ms="318" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- adminClick -->
-        <test-method signature="adminLogin()[pri:2, instance:com.companieshouseAssig.tests.LoginTest@311bf055]" started-at="2025-02-04T17:32:08 GMT" name="adminLogin" finished-at="2025-02-04T17:32:08 GMT" duration-ms="3" status="PASS">
+        <test-method signature="adminLogin()[pri:2, instance:com.companieshouseAssig.tests.LoginTest@311bf055]" started-at="2025-02-04T17:44:36 GMT" name="adminLogin" finished-at="2025-02-04T17:44:36 GMT" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- adminLogin -->
-        <test-method signature="appLoginTest()[pri:3, instance:com.companieshouseAssig.tests.LoginTest@311bf055]" started-at="2025-02-04T17:32:08 GMT" name="appLoginTest" finished-at="2025-02-04T17:32:09 GMT" duration-ms="1005" status="PASS">
+        <test-method signature="appLoginTest()[pri:3, instance:com.companieshouseAssig.tests.LoginTest@311bf055]" started-at="2025-02-04T17:44:36 GMT" name="appLoginTest" finished-at="2025-02-04T17:44:37 GMT" duration-ms="958" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- appLoginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.companieshouseAssig.tests.LoginTest@311bf055]" started-at="2025-02-04T17:32:09 GMT" name="tearDown" finished-at="2025-02-04T17:32:10 GMT" duration-ms="517" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.companieshouseAssig.tests.LoginTest@311bf055]" started-at="2025-02-04T17:44:37 GMT" name="tearDown" finished-at="2025-02-04T17:44:38 GMT" duration-ms="414" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.companieshouseAssig.tests.LoginTest -->
     </test> <!-- Login Test_chrome -->
-    <test started-at="2025-02-04T17:32:10 GMT" name="Book Room Test_chrome" finished-at="2025-02-04T17:32:23 GMT" duration-ms="13033">
+    <test started-at="2025-02-04T17:44:38 GMT" name="Book Room Test_chrome" finished-at="2025-02-04T17:44:50 GMT" duration-ms="12100">
       <class name="com.companieshouseAssig.tests.BookRoomTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.companieshouseAssig.tests.BookRoomTest@4470fbd6]" started-at="2025-02-04T17:32:10 GMT" name="setup" finished-at="2025-02-04T17:32:13 GMT" duration-ms="3560" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.companieshouseAssig.tests.BookRoomTest@4470fbd6]" started-at="2025-02-04T17:44:38 GMT" name="setup" finished-at="2025-02-04T17:44:41 GMT" duration-ms="3326" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="sendbookDetails()[pri:1, instance:com.companieshouseAssig.tests.BookRoomTest@4470fbd6]" started-at="2025-02-04T17:32:13 GMT" name="sendbookDetails" finished-at="2025-02-04T17:32:22 GMT" duration-ms="8850" status="PASS">
+        <test-method signature="sendbookDetails()[pri:1, instance:com.companieshouseAssig.tests.BookRoomTest@4470fbd6]" started-at="2025-02-04T17:44:41 GMT" name="sendbookDetails" finished-at="2025-02-04T17:44:49 GMT" duration-ms="8234" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sendbookDetails -->
-        <test-method signature="closeBookingMessage()[pri:2, instance:com.companieshouseAssig.tests.BookRoomTest@4470fbd6]" started-at="2025-02-04T17:32:22 GMT" name="closeBookingMessage" finished-at="2025-02-04T17:32:22 GMT" duration-ms="4" status="PASS">
+        <test-method signature="closeBookingMessage()[pri:2, instance:com.companieshouseAssig.tests.BookRoomTest@4470fbd6]" started-at="2025-02-04T17:44:49 GMT" name="closeBookingMessage" finished-at="2025-02-04T17:44:49 GMT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBookingMessage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.companieshouseAssig.tests.BookRoomTest@4470fbd6]" started-at="2025-02-04T17:32:22 GMT" name="tearDown" finished-at="2025-02-04T17:32:23 GMT" duration-ms="609" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.companieshouseAssig.tests.BookRoomTest@4470fbd6]" started-at="2025-02-04T17:44:50 GMT" name="tearDown" finished-at="2025-02-04T17:44:50 GMT" duration-ms="522" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.companieshouseAssig.tests.BookRoomTest -->
     </test> <!-- Book Room Test_chrome -->
-    <test started-at="2025-02-04T17:32:23 GMT" name="Conact Details Send Test_chrome" finished-at="2025-02-04T17:32:28 GMT" duration-ms="5538">
+    <test started-at="2025-02-04T17:44:50 GMT" name="Conact Details Send Test_chrome" finished-at="2025-02-04T17:44:56 GMT" duration-ms="5384">
       <class name="com.companieshouseAssig.tests.ConactDetailsSendTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.companieshouseAssig.tests.ConactDetailsSendTest@3b6d844d]" started-at="2025-02-04T17:32:23 GMT" name="setup" finished-at="2025-02-04T17:32:26 GMT" duration-ms="3474" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.companieshouseAssig.tests.ConactDetailsSendTest@3b6d844d]" started-at="2025-02-04T17:44:50 GMT" name="setup" finished-at="2025-02-04T17:44:53 GMT" duration-ms="3209" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="sendContactDetails()[pri:1, instance:com.companieshouseAssig.tests.ConactDetailsSendTest@3b6d844d]" started-at="2025-02-04T17:32:26 GMT" name="sendContactDetails" finished-at="2025-02-04T17:32:27 GMT" duration-ms="617" status="PASS">
+        <test-method signature="sendContactDetails()[pri:1, instance:com.companieshouseAssig.tests.ConactDetailsSendTest@3b6d844d]" started-at="2025-02-04T17:44:53 GMT" name="sendContactDetails" finished-at="2025-02-04T17:44:54 GMT" duration-ms="544" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sendContactDetails -->
-        <test-method signature="verfiySubmitedMessage()[pri:2, instance:com.companieshouseAssig.tests.ConactDetailsSendTest@3b6d844d]" started-at="2025-02-04T17:32:27 GMT" name="verfiySubmitedMessage" finished-at="2025-02-04T17:32:28 GMT" duration-ms="837" status="PASS">
+        <test-method signature="verfiySubmitedMessage()[pri:2, instance:com.companieshouseAssig.tests.ConactDetailsSendTest@3b6d844d]" started-at="2025-02-04T17:44:54 GMT" name="verfiySubmitedMessage" finished-at="2025-02-04T17:44:55 GMT" duration-ms="845" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verfiySubmitedMessage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.companieshouseAssig.tests.ConactDetailsSendTest@3b6d844d]" started-at="2025-02-04T17:32:28 GMT" name="tearDown" finished-at="2025-02-04T17:32:28 GMT" duration-ms="599" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.companieshouseAssig.tests.ConactDetailsSendTest@3b6d844d]" started-at="2025-02-04T17:44:55 GMT" name="tearDown" finished-at="2025-02-04T17:44:56 GMT" duration-ms="778" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.companieshouseAssig.tests.ConactDetailsSendTest -->
     </test> <!-- Conact Details Send Test_chrome -->
-    <test started-at="2025-02-04T17:32:28 GMT" name="Checking links Pages Test_chrome" finished-at="2025-02-04T17:32:51 GMT" duration-ms="22789">
+    <test started-at="2025-02-04T17:44:56 GMT" name="Checking links Pages Test_chrome" finished-at="2025-02-04T17:45:18 GMT" duration-ms="22728">
       <class name="com.companieshouseAssig.tests.CheckingLinksTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.companieshouseAssig.tests.CheckingLinksTest@1a5a4e19]" started-at="2025-02-04T17:32:28 GMT" name="setup" finished-at="2025-02-04T17:32:31 GMT" duration-ms="3214" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.companieshouseAssig.tests.CheckingLinksTest@1a5a4e19]" started-at="2025-02-04T17:44:56 GMT" name="setup" finished-at="2025-02-04T17:44:59 GMT" duration-ms="3178" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="gitHubRestLink()[pri:1, instance:com.companieshouseAssig.tests.CheckingLinksTest@1a5a4e19]" started-at="2025-02-04T17:32:31 GMT" name="gitHubRestLink" finished-at="2025-02-04T17:32:33 GMT" duration-ms="1875" status="PASS">
+        <test-method signature="gitHubRestLink()[pri:1, instance:com.companieshouseAssig.tests.CheckingLinksTest@1a5a4e19]" started-at="2025-02-04T17:44:59 GMT" name="gitHubRestLink" finished-at="2025-02-04T17:45:00 GMT" duration-ms="1677" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- gitHubRestLink -->
-        <test-method signature="pipelineLink()[pri:2, instance:com.companieshouseAssig.tests.CheckingLinksTest@1a5a4e19]" started-at="2025-02-04T17:32:33 GMT" name="pipelineLink" finished-at="2025-02-04T17:32:46 GMT" duration-ms="13028" status="PASS">
+        <test-method signature="pipelineLink()[pri:2, instance:com.companieshouseAssig.tests.CheckingLinksTest@1a5a4e19]" started-at="2025-02-04T17:45:00 GMT" name="pipelineLink" finished-at="2025-02-04T17:45:14 GMT" duration-ms="13034" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pipelineLink -->
-        <test-method signature="gitHubFeatureLink()[pri:3, instance:com.companieshouseAssig.tests.CheckingLinksTest@1a5a4e19]" started-at="2025-02-04T17:32:46 GMT" name="gitHubFeatureLink" finished-at="2025-02-04T17:32:49 GMT" duration-ms="3035" status="FAIL">
+        <test-method signature="gitHubFeatureLink()[pri:3, instance:com.companieshouseAssig.tests.CheckingLinksTest@1a5a4e19]" started-at="2025-02-04T17:45:14 GMT" name="gitHubFeatureLink" finished-at="2025-02-04T17:45:17 GMT" duration-ms="3069" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -142,184 +142,99 @@ at java.base/java.lang.Thread.run(Thread.java:1570)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- gitHubFeatureLink -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.companieshouseAssig.tests.CheckingLinksTest@1a5a4e19]" started-at="2025-02-04T17:32:50 GMT" name="tearDown" finished-at="2025-02-04T17:32:51 GMT" duration-ms="760" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.companieshouseAssig.tests.CheckingLinksTest@1a5a4e19]" started-at="2025-02-04T17:45:17 GMT" name="tearDown" finished-at="2025-02-04T17:45:18 GMT" duration-ms="858" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.companieshouseAssig.tests.CheckingLinksTest -->
     </test> <!-- Checking links Pages Test_chrome -->
-    <test started-at="2025-02-04T17:32:51 GMT" name="Accepting Cooking Let me Hack Test_chrome" finished-at="2025-02-04T17:32:56 GMT" duration-ms="4962">
+    <test started-at="2025-02-04T17:45:18 GMT" name="Accepting Cooking Let me Hack Test_chrome" finished-at="2025-02-04T17:45:23 GMT" duration-ms="4332">
       <class name="com.companieshouseAssig.tests.AcceptingCookiesTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.companieshouseAssig.tests.AcceptingCookiesTest@7975d1d8]" started-at="2025-02-04T17:32:51 GMT" name="setup" finished-at="2025-02-04T17:32:55 GMT" duration-ms="4017" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.companieshouseAssig.tests.AcceptingCookiesTest@7975d1d8]" started-at="2025-02-04T17:45:18 GMT" name="setup" finished-at="2025-02-04T17:45:22 GMT" duration-ms="3089" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="homePageTitleTest()[pri:1, instance:com.companieshouseAssig.tests.AcceptingCookiesTest@7975d1d8]" started-at="2025-02-04T17:32:55 GMT" name="homePageTitleTest" finished-at="2025-02-04T17:32:56 GMT" duration-ms="317" status="PASS">
+        <test-method signature="homePageTitleTest()[pri:1, instance:com.companieshouseAssig.tests.AcceptingCookiesTest@7975d1d8]" started-at="2025-02-04T17:45:22 GMT" name="homePageTitleTest" finished-at="2025-02-04T17:45:22 GMT" duration-ms="238" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePageTitleTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.companieshouseAssig.tests.AcceptingCookiesTest@7975d1d8]" started-at="2025-02-04T17:32:56 GMT" name="tearDown" finished-at="2025-02-04T17:32:56 GMT" duration-ms="623" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.companieshouseAssig.tests.AcceptingCookiesTest@7975d1d8]" started-at="2025-02-04T17:45:22 GMT" name="tearDown" finished-at="2025-02-04T17:45:23 GMT" duration-ms="994" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.companieshouseAssig.tests.AcceptingCookiesTest -->
     </test> <!-- Accepting Cooking Let me Hack Test_chrome -->
-    <test started-at="2025-02-04T17:32:56 GMT" name="Creating a Room Test_chrome" finished-at="2025-02-04T17:33:04 GMT" duration-ms="7546">
+    <test started-at="2025-02-04T17:45:23 GMT" name="Creating a Room Test_chrome" finished-at="2025-02-04T17:45:31 GMT" duration-ms="7675">
       <class name="com.companieshouseAssig.tests.CreateRoomTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.companieshouseAssig.tests.CreateRoomTest@50029372]" started-at="2025-02-04T17:32:56 GMT" name="setup" finished-at="2025-02-04T17:33:00 GMT" duration-ms="3693" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.companieshouseAssig.tests.CreateRoomTest@50029372]" started-at="2025-02-04T17:45:23 GMT" name="setup" finished-at="2025-02-04T17:45:26 GMT" duration-ms="3263" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="login()[pri:1, instance:com.companieshouseAssig.tests.CreateRoomTest@50029372]" started-at="2025-02-04T17:33:00 GMT" name="login" finished-at="2025-02-04T17:33:02 GMT" duration-ms="2548" status="PASS">
+        <test-method signature="login()[pri:1, instance:com.companieshouseAssig.tests.CreateRoomTest@50029372]" started-at="2025-02-04T17:45:26 GMT" name="login" finished-at="2025-02-04T17:45:29 GMT" duration-ms="2536" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="sendbookDetails()[pri:2, instance:com.companieshouseAssig.tests.CreateRoomTest@50029372]" started-at="2025-02-04T17:33:02 GMT" name="sendbookDetails" finished-at="2025-02-04T17:33:03 GMT" duration-ms="847" status="PASS">
+        <test-method signature="sendbookDetails()[pri:2, instance:com.companieshouseAssig.tests.CreateRoomTest@50029372]" started-at="2025-02-04T17:45:29 GMT" name="sendbookDetails" finished-at="2025-02-04T17:45:29 GMT" duration-ms="691" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sendbookDetails -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.companieshouseAssig.tests.CreateRoomTest@50029372]" started-at="2025-02-04T17:33:03 GMT" name="tearDown" finished-at="2025-02-04T17:33:04 GMT" duration-ms="450" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.companieshouseAssig.tests.CreateRoomTest@50029372]" started-at="2025-02-04T17:45:29 GMT" name="tearDown" finished-at="2025-02-04T17:45:31 GMT" duration-ms="1180" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.companieshouseAssig.tests.CreateRoomTest -->
     </test> <!-- Creating a Room Test_chrome -->
-    <test started-at="2025-02-04T17:33:04 GMT" name="Check Contact Retrive Database Test_chrome" finished-at="2025-02-04T17:33:17 GMT" duration-ms="13630">
+    <test started-at="2025-02-04T17:45:31 GMT" name="Check Contact Retrive Database Test_chrome" finished-at="2025-02-04T17:45:39 GMT" duration-ms="8077">
       <class name="com.companieshouseAssig.tests.ConactDetailsRetriveDBTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.companieshouseAssig.tests.ConactDetailsRetriveDBTest@32115b28]" started-at="2025-02-04T17:33:04 GMT" name="setup" finished-at="2025-02-04T17:33:08 GMT" duration-ms="3727" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.companieshouseAssig.tests.ConactDetailsRetriveDBTest@32115b28]" started-at="2025-02-04T17:45:31 GMT" name="setup" finished-at="2025-02-04T17:45:34 GMT" duration-ms="3243" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="sendContactDetails()[pri:1, instance:com.companieshouseAssig.tests.ConactDetailsRetriveDBTest@32115b28]" started-at="2025-02-04T17:33:08 GMT" name="sendContactDetails" finished-at="2025-02-04T17:33:08 GMT" duration-ms="720" status="PASS">
+        <test-method signature="sendContactDetails()[pri:1, instance:com.companieshouseAssig.tests.ConactDetailsRetriveDBTest@32115b28]" started-at="2025-02-04T17:45:34 GMT" name="sendContactDetails" finished-at="2025-02-04T17:45:34 GMT" duration-ms="536" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sendContactDetails -->
-        <test-method signature="verfiySubmitedMessage()[pri:2, instance:com.companieshouseAssig.tests.ConactDetailsRetriveDBTest@32115b28]" started-at="2025-02-04T17:33:08 GMT" name="verfiySubmitedMessage" finished-at="2025-02-04T17:33:09 GMT" duration-ms="223" status="PASS">
+        <test-method signature="verfiySubmitedMessage()[pri:2, instance:com.companieshouseAssig.tests.ConactDetailsRetriveDBTest@32115b28]" started-at="2025-02-04T17:45:34 GMT" name="verfiySubmitedMessage" finished-at="2025-02-04T17:45:35 GMT" duration-ms="842" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verfiySubmitedMessage -->
-        <test-method signature="loginadmin()[pri:3, instance:com.companieshouseAssig.tests.ConactDetailsRetriveDBTest@32115b28]" started-at="2025-02-04T17:33:09 GMT" name="loginadmin" finished-at="2025-02-04T17:33:14 GMT" duration-ms="5616" status="PASS">
+        <test-method signature="loginadmin()[pri:3, instance:com.companieshouseAssig.tests.ConactDetailsRetriveDBTest@32115b28]" started-at="2025-02-04T17:45:35 GMT" name="loginadmin" finished-at="2025-02-04T17:45:38 GMT" duration-ms="2364" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginadmin -->
-        <test-method signature="verfiyDataEntry()[pri:4, instance:com.companieshouseAssig.tests.ConactDetailsRetriveDBTest@32115b28]" started-at="2025-02-04T17:33:14 GMT" name="verfiyDataEntry" finished-at="2025-02-04T17:33:16 GMT" duration-ms="2353" status="PASS">
+        <test-method signature="verfiyDataEntry()[pri:4, instance:com.companieshouseAssig.tests.ConactDetailsRetriveDBTest@32115b28]" started-at="2025-02-04T17:45:38 GMT" name="verfiyDataEntry" finished-at="2025-02-04T17:45:38 GMT" duration-ms="266" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verfiyDataEntry -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.companieshouseAssig.tests.ConactDetailsRetriveDBTest@32115b28]" started-at="2025-02-04T17:33:16 GMT" name="tearDown" finished-at="2025-02-04T17:33:17 GMT" duration-ms="971" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.companieshouseAssig.tests.ConactDetailsRetriveDBTest@32115b28]" started-at="2025-02-04T17:45:38 GMT" name="tearDown" finished-at="2025-02-04T17:45:39 GMT" duration-ms="809" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.companieshouseAssig.tests.ConactDetailsRetriveDBTest -->
     </test> <!-- Check Contact Retrive Database Test_chrome -->
-    <test started-at="2025-02-04T17:33:18 GMT" name="Booking through Admin Credentails Test_chrome" finished-at="2025-02-04T17:33:59 GMT" duration-ms="41063">
+    <test started-at="2025-02-04T17:45:39 GMT" name="Booking through Admin Credentails Test_chrome" finished-at="2025-02-04T17:45:53 GMT" duration-ms="13697">
       <class name="com.companieshouseAssig.tests.BookRoomAdminTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.companieshouseAssig.tests.BookRoomAdminTest@61710c6]" started-at="2025-02-04T17:33:18 GMT" name="setup" finished-at="2025-02-04T17:33:22 GMT" duration-ms="4420" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.companieshouseAssig.tests.BookRoomAdminTest@61710c6]" started-at="2025-02-04T17:45:39 GMT" name="setup" finished-at="2025-02-04T17:45:42 GMT" duration-ms="3257" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="sendbookDetails()[pri:1, instance:com.companieshouseAssig.tests.BookRoomAdminTest@61710c6]" started-at="2025-02-04T17:33:22 GMT" name="sendbookDetails" finished-at="2025-02-04T17:33:58 GMT" duration-ms="35574" status="FAIL">
-          <exception class="com.microsoft.playwright.TimeoutError">
-            <message>
-              <![CDATA[Error {
-  message='Timeout 30000ms exceeded.
-  name='TimeoutError
-  stack='TimeoutError: Timeout 30000ms exceeded.
-    at ProgressController.run (C:\Users\aamir\AppData\Local\Temp\playwright-java-538505439556120954\package\lib\server\progress.js:75:26)
-    at Frame.fill (C:\Users\aamir\AppData\Local\Temp\playwright-java-538505439556120954\package\lib\server\frames.js:1072:23)
-    at FrameDispatcher.fill (C:\Users\aamir\AppData\Local\Temp\playwright-java-538505439556120954\package\lib\server\dispatchers\frameDispatcher.js:170:30)
-    at FrameDispatcher._handleCommand (C:\Users\aamir\AppData\Local\Temp\playwright-java-538505439556120954\package\lib\server\dispatchers\dispatcher.js:94:40)
-    at DispatcherConnection.dispatch (C:\Users\aamir\AppData\Local\Temp\playwright-java-538505439556120954\package\lib\server\dispatchers\dispatcher.js:361:39)
-}
-Call log:
--   - waiting for locator("//input[@placeholder='Firstname']")
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[com.microsoft.playwright.TimeoutError: Error {
-  message='Timeout 30000ms exceeded.
-  name='TimeoutError
-  stack='TimeoutError: Timeout 30000ms exceeded.
-    at ProgressController.run (C:\Users\aamir\AppData\Local\Temp\playwright-java-538505439556120954\package\lib\server\progress.js:75:26)
-    at Frame.fill (C:\Users\aamir\AppData\Local\Temp\playwright-java-538505439556120954\package\lib\server\frames.js:1072:23)
-    at FrameDispatcher.fill (C:\Users\aamir\AppData\Local\Temp\playwright-java-538505439556120954\package\lib\server\dispatchers\frameDispatcher.js:170:30)
-    at FrameDispatcher._handleCommand (C:\Users\aamir\AppData\Local\Temp\playwright-java-538505439556120954\package\lib\server\dispatchers\dispatcher.js:94:40)
-    at DispatcherConnection.dispatch (C:\Users\aamir\AppData\Local\Temp\playwright-java-538505439556120954\package\lib\server\dispatchers\dispatcher.js:361:39)
-}
-Call log:
--   - waiting for locator("//input[@placeholder='Firstname']")
-
-at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)
-at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:132)
-at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
-at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:118)
-at com.microsoft.playwright.impl.FrameImpl.fillImpl(FrameImpl.java:335)
-at com.microsoft.playwright.impl.PageImpl.lambda$fill$28(PageImpl.java:767)
-at com.microsoft.playwright.impl.LoggingSupport.lambda$withLogging$0(LoggingSupport.java:36)
-at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
-at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:97)
-at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:35)
-at com.microsoft.playwright.impl.PageImpl.fill(PageImpl.java:766)
-at com.microsoft.playwright.Page.fill(Page.java:4715)
-at com.companieshouseAssig.pageObject.AdminPage.reportMangt(AdminPage.java:100)
-at com.companieshouseAssig.tests.BookRoomAdminTest.sendbookDetails(BookRoomAdminTest.java:18)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1570)
-Caused by: com.microsoft.playwright.TimeoutError: Error {
-  message='Timeout 30000ms exceeded.
-  name='TimeoutError
-  stack='TimeoutError: Timeout 30000ms exceeded.
-    at ProgressController.run (C:\Users\aamir\AppData\Local\Temp\playwright-java-538505439556120954\package\lib\server\progress.js:75:26)
-    at Frame.fill (C:\Users\aamir\AppData\Local\Temp\playwright-java-538505439556120954\package\lib\server\frames.js:1072:23)
-    at FrameDispatcher.fill (C:\Users\aamir\AppData\Local\Temp\playwright-java-538505439556120954\package\lib\server\dispatchers\frameDispatcher.js:170:30)
-    at FrameDispatcher._handleCommand (C:\Users\aamir\AppData\Local\Temp\playwright-java-538505439556120954\package\lib\server\dispatchers\dispatcher.js:94:40)
-    at DispatcherConnection.dispatch (C:\Users\aamir\AppData\Local\Temp\playwright-java-538505439556120954\package\lib\server\dispatchers\dispatcher.js:361:39)
-}
-Call log:
--   - waiting for locator("//input[@placeholder='Firstname']")
-
-at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:254)
-at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
-at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:130)
-... 33 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- com.microsoft.playwright.TimeoutError -->
+        <test-method signature="sendbookDetails()[pri:1, instance:com.companieshouseAssig.tests.BookRoomAdminTest@61710c6]" started-at="2025-02-04T17:45:42 GMT" name="sendbookDetails" finished-at="2025-02-04T17:45:52 GMT" duration-ms="9543" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sendbookDetails -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.companieshouseAssig.tests.BookRoomAdminTest@61710c6]" started-at="2025-02-04T17:33:58 GMT" name="tearDown" finished-at="2025-02-04T17:33:59 GMT" duration-ms="695" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.companieshouseAssig.tests.BookRoomAdminTest@61710c6]" started-at="2025-02-04T17:45:52 GMT" name="tearDown" finished-at="2025-02-04T17:45:53 GMT" duration-ms="897" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.companieshouseAssig.tests.BookRoomAdminTest -->
     </test> <!-- Booking through Admin Credentails Test_chrome -->
-    <test started-at="2025-02-04T17:33:59 GMT" name="Login test Data Driven Approach Test_chrome" finished-at="2025-02-04T17:34:37 GMT" duration-ms="38429">
+    <test started-at="2025-02-04T17:45:53 GMT" name="Login test Data Driven Approach Test_chrome" finished-at="2025-02-04T17:46:31 GMT" duration-ms="38672">
       <class name="com.companieshouseAssig.tests.LoginTestDataDriven">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.companieshouseAssig.tests.LoginTestDataDriven@18317edc]" started-at="2025-02-04T17:33:59 GMT" name="setup" finished-at="2025-02-04T17:34:03 GMT" duration-ms="3933" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.companieshouseAssig.tests.LoginTestDataDriven@18317edc]" started-at="2025-02-04T17:45:53 GMT" name="setup" finished-at="2025-02-04T17:45:56 GMT" duration-ms="3009" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyAppLoginFunctionality(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.companieshouseAssig.tests.LoginTestDataDriven@18317edc]" started-at="2025-02-04T17:34:05 GMT" name="verifyAppLoginFunctionality" description="Verify login functionality" data-provider="loginTestData" finished-at="2025-02-04T17:34:06 GMT" duration-ms="617" status="PASS">
+        <test-method signature="verifyAppLoginFunctionality(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.companieshouseAssig.tests.LoginTestDataDriven@18317edc]" started-at="2025-02-04T17:45:58 GMT" name="verifyAppLoginFunctionality" description="Verify login functionality" data-provider="loginTestData" finished-at="2025-02-04T17:45:59 GMT" duration-ms="546" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -340,7 +255,7 @@ at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:130)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAppLoginFunctionality -->
-        <test-method signature="verifyAppLoginFunctionality(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.companieshouseAssig.tests.LoginTestDataDriven@18317edc]" started-at="2025-02-04T17:34:06 GMT" name="verifyAppLoginFunctionality" description="Verify login functionality" data-provider="loginTestData" finished-at="2025-02-04T17:34:36 GMT" duration-ms="30226" status="FAIL">
+        <test-method signature="verifyAppLoginFunctionality(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.companieshouseAssig.tests.LoginTestDataDriven@18317edc]" started-at="2025-02-04T17:45:59 GMT" name="verifyAppLoginFunctionality" description="Verify login functionality" data-provider="loginTestData" finished-at="2025-02-04T17:46:29 GMT" duration-ms="30220" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -364,12 +279,12 @@ at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:130)
   message='Timeout 30000ms exceeded.
   name='TimeoutError
   stack='TimeoutError: Timeout 30000ms exceeded.
-    at ProgressController.run (C:\Users\aamir\AppData\Local\Temp\playwright-java-538505439556120954\package\lib\server\progress.js:75:26)
-    at Frame._callOnElementOnceMatches (C:\Users\aamir\AppData\Local\Temp\playwright-java-538505439556120954\package\lib\server\frames.js:1479:23)
-    at Frame.textContent (C:\Users\aamir\AppData\Local\Temp\playwright-java-538505439556120954\package\lib\server\frames.js:1089:17)
-    at FrameDispatcher.textContent (C:\Users\aamir\AppData\Local\Temp\playwright-java-538505439556120954\package\lib\server\dispatchers\frameDispatcher.js:179:37)
-    at FrameDispatcher._handleCommand (C:\Users\aamir\AppData\Local\Temp\playwright-java-538505439556120954\package\lib\server\dispatchers\dispatcher.js:94:40)
-    at DispatcherConnection.dispatch (C:\Users\aamir\AppData\Local\Temp\playwright-java-538505439556120954\package\lib\server\dispatchers\dispatcher.js:361:39)
+    at ProgressController.run (C:\Users\aamir\AppData\Local\Temp\playwright-java-12905125744924113499\package\lib\server\progress.js:75:26)
+    at Frame._callOnElementOnceMatches (C:\Users\aamir\AppData\Local\Temp\playwright-java-12905125744924113499\package\lib\server\frames.js:1479:23)
+    at Frame.textContent (C:\Users\aamir\AppData\Local\Temp\playwright-java-12905125744924113499\package\lib\server\frames.js:1089:17)
+    at FrameDispatcher.textContent (C:\Users\aamir\AppData\Local\Temp\playwright-java-12905125744924113499\package\lib\server\dispatchers\frameDispatcher.js:179:37)
+    at FrameDispatcher._handleCommand (C:\Users\aamir\AppData\Local\Temp\playwright-java-12905125744924113499\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\aamir\AppData\Local\Temp\playwright-java-12905125744924113499\package\lib\server\dispatchers\dispatcher.js:361:39)
 }
 Call log:
 -   - waiting for locator("errorMessage")
@@ -380,12 +295,12 @@ Call log:
   message='Timeout 30000ms exceeded.
   name='TimeoutError
   stack='TimeoutError: Timeout 30000ms exceeded.
-    at ProgressController.run (C:\Users\aamir\AppData\Local\Temp\playwright-java-538505439556120954\package\lib\server\progress.js:75:26)
-    at Frame._callOnElementOnceMatches (C:\Users\aamir\AppData\Local\Temp\playwright-java-538505439556120954\package\lib\server\frames.js:1479:23)
-    at Frame.textContent (C:\Users\aamir\AppData\Local\Temp\playwright-java-538505439556120954\package\lib\server\frames.js:1089:17)
-    at FrameDispatcher.textContent (C:\Users\aamir\AppData\Local\Temp\playwright-java-538505439556120954\package\lib\server\dispatchers\frameDispatcher.js:179:37)
-    at FrameDispatcher._handleCommand (C:\Users\aamir\AppData\Local\Temp\playwright-java-538505439556120954\package\lib\server\dispatchers\dispatcher.js:94:40)
-    at DispatcherConnection.dispatch (C:\Users\aamir\AppData\Local\Temp\playwright-java-538505439556120954\package\lib\server\dispatchers\dispatcher.js:361:39)
+    at ProgressController.run (C:\Users\aamir\AppData\Local\Temp\playwright-java-12905125744924113499\package\lib\server\progress.js:75:26)
+    at Frame._callOnElementOnceMatches (C:\Users\aamir\AppData\Local\Temp\playwright-java-12905125744924113499\package\lib\server\frames.js:1479:23)
+    at Frame.textContent (C:\Users\aamir\AppData\Local\Temp\playwright-java-12905125744924113499\package\lib\server\frames.js:1089:17)
+    at FrameDispatcher.textContent (C:\Users\aamir\AppData\Local\Temp\playwright-java-12905125744924113499\package\lib\server\dispatchers\frameDispatcher.js:179:37)
+    at FrameDispatcher._handleCommand (C:\Users\aamir\AppData\Local\Temp\playwright-java-12905125744924113499\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\aamir\AppData\Local\Temp\playwright-java-12905125744924113499\package\lib\server\dispatchers\dispatcher.js:361:39)
 }
 Call log:
 -   - waiting for locator("errorMessage")
@@ -428,12 +343,12 @@ Caused by: com.microsoft.playwright.TimeoutError: Error {
   message='Timeout 30000ms exceeded.
   name='TimeoutError
   stack='TimeoutError: Timeout 30000ms exceeded.
-    at ProgressController.run (C:\Users\aamir\AppData\Local\Temp\playwright-java-538505439556120954\package\lib\server\progress.js:75:26)
-    at Frame._callOnElementOnceMatches (C:\Users\aamir\AppData\Local\Temp\playwright-java-538505439556120954\package\lib\server\frames.js:1479:23)
-    at Frame.textContent (C:\Users\aamir\AppData\Local\Temp\playwright-java-538505439556120954\package\lib\server\frames.js:1089:17)
-    at FrameDispatcher.textContent (C:\Users\aamir\AppData\Local\Temp\playwright-java-538505439556120954\package\lib\server\dispatchers\frameDispatcher.js:179:37)
-    at FrameDispatcher._handleCommand (C:\Users\aamir\AppData\Local\Temp\playwright-java-538505439556120954\package\lib\server\dispatchers\dispatcher.js:94:40)
-    at DispatcherConnection.dispatch (C:\Users\aamir\AppData\Local\Temp\playwright-java-538505439556120954\package\lib\server\dispatchers\dispatcher.js:361:39)
+    at ProgressController.run (C:\Users\aamir\AppData\Local\Temp\playwright-java-12905125744924113499\package\lib\server\progress.js:75:26)
+    at Frame._callOnElementOnceMatches (C:\Users\aamir\AppData\Local\Temp\playwright-java-12905125744924113499\package\lib\server\frames.js:1479:23)
+    at Frame.textContent (C:\Users\aamir\AppData\Local\Temp\playwright-java-12905125744924113499\package\lib\server\frames.js:1089:17)
+    at FrameDispatcher.textContent (C:\Users\aamir\AppData\Local\Temp\playwright-java-12905125744924113499\package\lib\server\dispatchers\frameDispatcher.js:179:37)
+    at FrameDispatcher._handleCommand (C:\Users\aamir\AppData\Local\Temp\playwright-java-12905125744924113499\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\aamir\AppData\Local\Temp\playwright-java-12905125744924113499\package\lib\server\dispatchers\dispatcher.js:361:39)
 }
 Call log:
 -   - waiting for locator("errorMessage")
@@ -448,63 +363,63 @@ at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:130)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAppLoginFunctionality -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.companieshouseAssig.tests.LoginTestDataDriven@18317edc]" started-at="2025-02-04T17:34:37 GMT" name="tearDown" finished-at="2025-02-04T17:34:37 GMT" duration-ms="535" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.companieshouseAssig.tests.LoginTestDataDriven@18317edc]" started-at="2025-02-04T17:46:30 GMT" name="tearDown" finished-at="2025-02-04T17:46:31 GMT" duration-ms="1545" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.companieshouseAssig.tests.LoginTestDataDriven -->
     </test> <!-- Login test Data Driven Approach Test_chrome -->
-    <test started-at="2025-02-04T17:34:37 GMT" name="Performance Home Page Load time Test_chrome" finished-at="2025-02-04T17:34:43 GMT" duration-ms="6086">
+    <test started-at="2025-02-04T17:46:31 GMT" name="Performance Home Page Load time Test_chrome" finished-at="2025-02-04T17:46:37 GMT" duration-ms="5990">
       <class name="com.companieshouseAssig.tests.NFTPerformanceHomePageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.companieshouseAssig.tests.NFTPerformanceHomePageTest@76b07f29]" started-at="2025-02-04T17:34:37 GMT" name="setup" finished-at="2025-02-04T17:34:41 GMT" duration-ms="3262" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.companieshouseAssig.tests.NFTPerformanceHomePageTest@76b07f29]" started-at="2025-02-04T17:46:31 GMT" name="setup" finished-at="2025-02-04T17:46:35 GMT" duration-ms="3647" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="HomePagePerformanceLoadTime()[pri:1, instance:com.companieshouseAssig.tests.NFTPerformanceHomePageTest@76b07f29]" started-at="2025-02-04T17:34:41 GMT" name="HomePagePerformanceLoadTime" finished-at="2025-02-04T17:34:42 GMT" duration-ms="1614" status="PASS">
+        <test-method signature="HomePagePerformanceLoadTime()[pri:1, instance:com.companieshouseAssig.tests.NFTPerformanceHomePageTest@76b07f29]" started-at="2025-02-04T17:46:35 GMT" name="HomePagePerformanceLoadTime" finished-at="2025-02-04T17:46:37 GMT" duration-ms="1765" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HomePagePerformanceLoadTime -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.companieshouseAssig.tests.NFTPerformanceHomePageTest@76b07f29]" started-at="2025-02-04T17:34:42 GMT" name="tearDown" finished-at="2025-02-04T17:34:43 GMT" duration-ms="1204" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.companieshouseAssig.tests.NFTPerformanceHomePageTest@76b07f29]" started-at="2025-02-04T17:46:37 GMT" name="tearDown" finished-at="2025-02-04T17:46:37 GMT" duration-ms="574" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.companieshouseAssig.tests.NFTPerformanceHomePageTest -->
     </test> <!-- Performance Home Page Load time Test_chrome -->
-    <test started-at="2025-02-04T17:34:43 GMT" name="Performance Login time Test_chrome" finished-at="2025-02-04T17:34:49 GMT" duration-ms="6013">
+    <test started-at="2025-02-04T17:46:38 GMT" name="Performance Login time Test_chrome" finished-at="2025-02-04T17:46:44 GMT" duration-ms="6785">
       <class name="com.companieshouseAssig.tests.NFTPerformanceLoginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.companieshouseAssig.tests.NFTPerformanceLoginTest@7d61eb55]" started-at="2025-02-04T17:34:43 GMT" name="setup" finished-at="2025-02-04T17:34:47 GMT" duration-ms="3744" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.companieshouseAssig.tests.NFTPerformanceLoginTest@7d61eb55]" started-at="2025-02-04T17:46:38 GMT" name="setup" finished-at="2025-02-04T17:46:42 GMT" duration-ms="4851" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="LoginperformaneLoadTime()[pri:1, instance:com.companieshouseAssig.tests.NFTPerformanceLoginTest@7d61eb55]" started-at="2025-02-04T17:34:47 GMT" name="LoginperformaneLoadTime" finished-at="2025-02-04T17:34:49 GMT" duration-ms="1839" status="PASS">
+        <test-method signature="LoginperformaneLoadTime()[pri:1, instance:com.companieshouseAssig.tests.NFTPerformanceLoginTest@7d61eb55]" started-at="2025-02-04T17:46:42 GMT" name="LoginperformaneLoadTime" finished-at="2025-02-04T17:46:44 GMT" duration-ms="1088" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginperformaneLoadTime -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.companieshouseAssig.tests.NFTPerformanceLoginTest@7d61eb55]" started-at="2025-02-04T17:34:49 GMT" name="tearDown" finished-at="2025-02-04T17:34:49 GMT" duration-ms="426" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.companieshouseAssig.tests.NFTPerformanceLoginTest@7d61eb55]" started-at="2025-02-04T17:46:44 GMT" name="tearDown" finished-at="2025-02-04T17:46:44 GMT" duration-ms="840" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.companieshouseAssig.tests.NFTPerformanceLoginTest -->
     </test> <!-- Performance Login time Test_chrome -->
-    <test started-at="2025-02-04T17:34:49 GMT" name="Responsivness Login test Test_chrome" finished-at="2025-02-04T17:34:55 GMT" duration-ms="5428">
+    <test started-at="2025-02-04T17:46:44 GMT" name="Responsivness Login test Test_chrome" finished-at="2025-02-04T17:46:49 GMT" duration-ms="4460">
       <class name="com.companieshouseAssig.tests.NFTResponsivenessLoginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.companieshouseAssig.tests.NFTResponsivenessLoginTest@7283d3eb]" started-at="2025-02-04T17:34:49 GMT" name="setup" finished-at="2025-02-04T17:34:53 GMT" duration-ms="3568" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.companieshouseAssig.tests.NFTResponsivenessLoginTest@7283d3eb]" started-at="2025-02-04T17:46:45 GMT" name="setup" finished-at="2025-02-04T17:46:48 GMT" duration-ms="3187" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="adminClick()[pri:1, instance:com.companieshouseAssig.tests.NFTResponsivenessLoginTest@7283d3eb]" started-at="2025-02-04T17:34:53 GMT" name="adminClick" finished-at="2025-02-04T17:34:54 GMT" duration-ms="952" status="PASS">
+        <test-method signature="adminClick()[pri:1, instance:com.companieshouseAssig.tests.NFTResponsivenessLoginTest@7283d3eb]" started-at="2025-02-04T17:46:48 GMT" name="adminClick" finished-at="2025-02-04T17:46:48 GMT" duration-ms="265" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- adminClick -->
-        <test-method signature="adminLogin()[pri:2, instance:com.companieshouseAssig.tests.NFTResponsivenessLoginTest@7283d3eb]" started-at="2025-02-04T17:34:54 GMT" name="adminLogin" finished-at="2025-02-04T17:34:54 GMT" duration-ms="3" status="PASS">
+        <test-method signature="adminLogin()[pri:2, instance:com.companieshouseAssig.tests.NFTResponsivenessLoginTest@7283d3eb]" started-at="2025-02-04T17:46:48 GMT" name="adminLogin" finished-at="2025-02-04T17:46:48 GMT" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- adminLogin -->
-        <test-method signature="appLoginTest()[pri:3, instance:com.companieshouseAssig.tests.NFTResponsivenessLoginTest@7283d3eb]" started-at="2025-02-04T17:34:54 GMT" name="appLoginTest" finished-at="2025-02-04T17:34:54 GMT" duration-ms="275" status="PASS">
+        <test-method signature="appLoginTest()[pri:3, instance:com.companieshouseAssig.tests.NFTResponsivenessLoginTest@7283d3eb]" started-at="2025-02-04T17:46:48 GMT" name="appLoginTest" finished-at="2025-02-04T17:46:48 GMT" duration-ms="349" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- appLoginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.companieshouseAssig.tests.NFTResponsivenessLoginTest@7283d3eb]" started-at="2025-02-04T17:34:54 GMT" name="tearDown" finished-at="2025-02-04T17:34:55 GMT" duration-ms="620" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.companieshouseAssig.tests.NFTResponsivenessLoginTest@7283d3eb]" started-at="2025-02-04T17:46:48 GMT" name="tearDown" finished-at="2025-02-04T17:46:49 GMT" duration-ms="618" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

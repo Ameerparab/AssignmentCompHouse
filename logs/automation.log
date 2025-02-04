@@ -304,3 +304,54 @@
 17:34:05.933 [TestNG-tests-1] TRACE - Resolving type for handle stcelltypebf95type
 17:34:05.943 [TestNG-tests-1] TRACE - Resolving type for handle stcellstylexfid70c7type
 17:34:05.946 [TestNG-tests-1] TRACE - Resolving type for handle stnumfmtid76fbtype
+17:45:58.006 [TestNG-tests-1] DEBUG - Parsing relationship: /xl/_rels/workbook.xml.rels
+17:45:58.022 [TestNG-tests-1] DEBUG - Parsing relationship: /_rels/.rels
+17:45:58.326 [TestNG-tests-1] TRACE - Loading type system org.apache.poi.schemas.ooxml.system.ooxml
+17:45:58.326 [TestNG-tests-1] TRACE - Loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+17:45:58.326 [TestNG-tests-1] TRACE - Loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+17:45:58.326 [TestNG-tests-1] TRACE - Loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+17:45:58.326 [TestNG-tests-1] TRACE - Loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+17:45:58.342 [TestNG-tests-1] TRACE - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+17:45:58.358 [TestNG-tests-1] TRACE - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+17:45:58.358 [TestNG-tests-1] TRACE - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+17:45:58.390 [TestNG-tests-1] TRACE - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+17:45:58.406 [TestNG-tests-1] TRACE - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLLANG
+17:45:58.406 [TestNG-tests-1] TRACE - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+17:45:58.406 [TestNG-tests-1] TRACE - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+17:45:58.406 [TestNG-tests-1] TRACE - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+17:45:58.406 [TestNG-tests-1] TRACE - Reading unresolved handles for type system org.apache.poi.schemas.ooxml.system.ooxml
+17:45:58.486 [TestNG-tests-1] TRACE - Finished loading type system org.apache.poi.schemas.ooxml.system.ooxml
+17:45:58.486 [TestNG-tests-1] TRACE - Resolving type for handle themefd26doctype
+17:45:58.693 [TestNG-tests-1] TRACE - Resolving type for handle stylesheet5d8bdoctype
+17:45:58.725 [TestNG-tests-1] TRACE - Resolving type for handle ctstylesheet4257type
+17:45:58.741 [TestNG-tests-1] TRACE - Resolving type for handle ctfonts6623type
+17:45:58.741 [TestNG-tests-1] TRACE - Resolving type for handle ctfont14d8type
+17:45:58.757 [TestNG-tests-1] TRACE - Resolving type for handle ctfills2c6ftype
+17:45:58.757 [TestNG-tests-1] TRACE - Resolving type for handle ctfill550ctype
+17:45:58.773 [TestNG-tests-1] TRACE - Resolving type for handle ctborders0d66type
+17:45:58.781 [TestNG-tests-1] TRACE - Resolving type for handle ctborderf935type
+17:45:58.781 [TestNG-tests-1] TRACE - Resolving type for handle ctcellxfs1322type
+17:45:58.789 [TestNG-tests-1] TRACE - Resolving type for handle ctxf97f7type
+17:45:58.789 [TestNG-tests-1] TRACE - Resolving type for handle ctcellstylexfsa81ftype
+17:45:58.789 [TestNG-tests-1] TRACE - Resolving type for handle ctdxfsb26atype
+17:45:58.789 [TestNG-tests-1] TRACE - Resolving type for handle cttablestyles872ftype
+17:45:58.805 [TestNG-tests-1] TRACE - Resolving type for handle sstf81fdoctype
+17:45:58.805 [TestNG-tests-1] TRACE - Resolving type for handle ctsst44f3type
+17:45:58.821 [TestNG-tests-1] TRACE - Resolving type for handle ctrsta472type
+17:45:58.853 [TestNG-tests-1] TRACE - Resolving type for handle workbookec17doctype
+17:45:58.865 [TestNG-tests-1] TRACE - Resolving type for handle ctworkbook83c3type
+17:45:58.869 [TestNG-tests-1] TRACE - Resolving type for handle ctsheets49fdtype
+17:45:58.869 [TestNG-tests-1] TRACE - Resolving type for handle ctsheet4dbetype
+17:45:58.869 [TestNG-tests-1] TRACE - Resolving type for handle strelationshipid1e94type
+17:45:58.883 [TestNG-tests-1] TRACE - Resolving type for handle worksheetf539doctype
+17:45:58.887 [TestNG-tests-1] TRACE - Resolving type for handle ctworksheet530dtype
+17:45:58.901 [TestNG-tests-1] TRACE - Resolving type for handle ctcols627ctype
+17:45:58.901 [TestNG-tests-1] TRACE - Resolving type for handle ctcola95ftype
+17:45:58.933 [TestNG-tests-1] TRACE - Resolving type for handle ctsheetdata8408type
+17:45:58.933 [TestNG-tests-1] TRACE - Resolving type for handle ctrowdd39type
+17:45:58.933 [TestNG-tests-1] TRACE - Resolving type for handle ctcell842btype
+17:45:58.949 [TestNG-tests-1] TRACE - Resolving type for handle stcellrefe4e0type
+17:45:58.949 [TestNG-tests-1] TRACE - Resolving type for handle stxstringf179type
+17:45:58.949 [TestNG-tests-1] TRACE - Resolving type for handle stcelltypebf95type
+17:45:58.965 [TestNG-tests-1] TRACE - Resolving type for handle stcellstylexfid70c7type
+17:45:58.965 [TestNG-tests-1] TRACE - Resolving type for handle stnumfmtid76fbtype

@@ -16,18 +16,6 @@
       </class> <!-- com.companieshouseAssig.tests.CheckingLinksTest -->
     </classes>
   </test> <!-- Checking links Pages Test_chrome(failed) -->
-  <test thread-count="1" parallel="tests" name="Booking through Admin Credentails Test_chrome(failed)" verbose="4">
-    <parameter name="browser" value="chrome"/>
-    <classes>
-      <class name="com.companieshouseAssig.tests.BookRoomAdminTest">
-        <methods>
-          <include name="setup"/>
-          <include name="tearDown"/>
-          <include name="sendbookDetails"/>
-        </methods>
-      </class> <!-- com.companieshouseAssig.tests.BookRoomAdminTest -->
-    </classes>
-  </test> <!-- Booking through Admin Credentails Test_chrome(failed) -->
   <test thread-count="1" parallel="tests" name="Login test Data Driven Approach Test_chrome(failed)" verbose="4">
     <parameter name="browser" value="chrome"/>
     <classes>
