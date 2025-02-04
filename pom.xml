@@ -6,9 +6,8 @@
   <groupId>CompaniesHouseAssig</groupId>
   <artifactId>CompaniesHouseAssig</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-
   <name>CompaniesHouseAssig</name>
-  <url>http://www.example.com</url>
+  <!--<url>http://www.example.com</url> -->
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -92,6 +91,7 @@
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
 			<version>7.8.0</version>
+			  <scope>test</scope>
 		</dependency>
 
     <!-- ExtentReports Cucumber Adapter -->
@@ -125,11 +125,6 @@
     <artifactId>jna</artifactId>
     <version>5.13.0</version>
 </dependency>
-    <dependency>
-    	<groupId>CompaniesHouse</groupId>
-    	<artifactId>CompaniesHouse</artifactId>
-    	<version>0.0.1-SNAPSHOT</version>
-    </dependency>
   </dependencies>
 
   <dependencyManagement>
@@ -168,6 +163,9 @@
             <include>**/*Tests.java</include>
             <include>**/*Runner.java</include>
           </includes>
+           <suiteXmlFiles>
+          <suiteXmlFile>src/test/resources/testrunner/test_functional.xml</suiteXmlFile>
+        </suiteXmlFiles>
         </configuration>
       </plugin>
     </plugins>
